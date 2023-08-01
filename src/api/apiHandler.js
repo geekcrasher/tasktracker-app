@@ -7,23 +7,23 @@ const api =  axios.create({
 
 // get all the tasks
 export const getTasks = async () => {
-   return await api.get('/todos')
+   return await api.get('/')
 }
 
 // get a single task
 export const getTask = async (_id) => {
-   const response = await api.get(`/todos/${_id}`)
+   const response = await api.get(`/${_id}`)
    return response.data
 }
 
 // add a task
 export const addTask = async (todo ) => {
-   return await api.post('/todos', todo)
+   return await api.post('/', todo)
 }
 
 // update a task
 export const updateTask = async (todo) => {
-   return await api.put(`/todos/${todo._id}`, todo)
+   return await api.put(`/${todo._id}`, todo)
 }
 
 // delete a task
