@@ -35,7 +35,7 @@ const Tasks = ({
           return (
             <section
               key={todo._id}
-              className={`${priorityImage(todo.priority)} h-56 rounded-xl px-5 pt-7 pb-3 shadow border`}
+              className={`bg-[#262C39] h-56 rounded-xl px-5 pt-7 pb-3`}
             >
               <TaskDetails
                 todo={todo}

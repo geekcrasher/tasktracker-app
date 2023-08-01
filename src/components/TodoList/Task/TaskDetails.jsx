@@ -12,11 +12,11 @@ const TaskDetails = ({
 
   const priorityColor = (priority) => {
    if (priority == "Low") {
-      return "text-[#febe6b]";
+      return "text-[#8AD3F6]";
     } else if (priority == "Medium") {
-      return "text-[#99c7fc]";
+      return "text-[#D0FE59]";
     } else if (priority == "High") {
-      return "text-[#feaaa4]";
+      return "text-[#FF4A88]";
     }
   }
 
@@ -45,7 +45,7 @@ const TaskDetails = ({
         />
       </section>
       <section className=" mt-2 h-[5.5rem] py-1">
-        <p className="leading-normal tracking-wide line-clamp-4 text-[0.75rem] text-[#333]">
+        <p className="leading-normal tracking-wide line-clamp-4 text-[0.75rem] text-[#797D8B]">
           {description}
         </p>
       </section>
@@ -58,7 +58,7 @@ const TaskDetails = ({
           </span>
           {priority}
         </p>
-        <span className="flex items-center text-xs font-semibold text-[#333]">
+        <span className="flex items-center text-xs font-semibold text-[#797D8B]">
           <span className="mr-1">
             <Calendar size={14}/>
           </span>

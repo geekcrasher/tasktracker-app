@@ -15,7 +15,7 @@ const Dropdown = ({ setUpdatedTask, deleteTodoMutation, todo, _id }) => {
   return (
      <section className="w-11 flex pt-1 justify-center card-actions dropdown dropdown-bottom dropdown-end">
        <button tabIndex={0} >
-         <MoreHorizontal size={16} color="#000" />
+         <MoreHorizontal size={16} color="#797D8B" />
        </button>
        <ul
          tabIndex={0}
